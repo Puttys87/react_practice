@@ -104,6 +104,25 @@ npm run e2e:ui           # UI 모드
 | `npm run storybook` | Storybook (44012) |
 | `npm run build-storybook` | Storybook 정적 빌드 |
 
+## 문서 체계
+
+- **docs/**  
+  계획·분석 문서(`docs/*.md`)와 기술 의사결정 기록(`docs/work-logs/`)을 구분하여 둔다.
+- **work-log**  
+  설계 결정, 트레이드오프, 변경 위험을 기록한다.  
+  [docs/work-logs/eq5d5l-eqvas-implementation.md](docs/work-logs/eq5d5l-eqvas-implementation.md)
+- **extension_note**  
+  변경 가능성, 확장 압력, 패턴화 필요성을 정리한다.  
+  [docs/work-logs/extension_note.md](docs/work-logs/extension_note.md)
+- **계획·분석 문서**
+
+| 문서 | 용도 |
+|------|------|
+| [docs/plan-ref-extended.md](docs/plan-ref-extended.md) | Phase 0 사전 결정(라우트·Slider·타입·Review 공통화) |
+| [docs/plan-ref-screens.md](docs/plan-ref-screens.md) | ref 이미지 기반 화면·플로우 계획 |
+| [docs/ref-images-analysis.md](docs/ref-images-analysis.md) | ref 이미지 5종 화면·플로우 분석 |
+| [docs/review-full-process.md](docs/review-full-process.md) | 전 과정 검토 보고서 |
+
 ## Path Alias
 
 - `@app/*` → `src/app/*`
