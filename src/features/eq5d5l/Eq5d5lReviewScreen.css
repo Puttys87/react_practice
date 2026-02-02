@@ -1,0 +1,5 @@
+.eq5d5l-review-screen__cards {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}

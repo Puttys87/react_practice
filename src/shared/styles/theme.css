@@ -1,0 +1,130 @@
+/* Design tokens - 의료·의사결정 도메인: 절제되고 신뢰감 있는 UI */
+:root,
+[data-theme="light"] {
+  /* Color */
+  --color-background: var(--color-neutral-50);
+  --color-surface: var(--color-neutral-0);
+  --color-border: var(--color-neutral-200);
+  --color-text: var(--color-neutral-900);
+  --color-text-muted: var(--color-neutral-600);
+  --color-primary: var(--color-blue-700);
+  --color-primary-hover: var(--color-blue-800);
+  --color-primary-muted: #e0e7ff;
+  --color-primary-text: var(--color-neutral-0);
+  --color-secondary: var(--color-neutral-100);
+  --color-secondary-hover: var(--color-neutral-200);
+  --color-secondary-text: var(--color-neutral-800);
+
+  --color-neutral-0: #ffffff;
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f1f5f9;
+  --color-neutral-200: #e2e8f0;
+  --color-neutral-600: #475569;
+  --color-neutral-800: #1e293b;
+  --color-neutral-900: #0f172a;
+  --color-blue-700: #1d4ed8;
+  --color-blue-800: #1e40af;
+}
+
+[data-theme="dark"] {
+  --color-background: var(--color-neutral-900);
+  --color-surface: var(--color-neutral-800);
+  --color-border: var(--color-neutral-600);
+  --color-text: var(--color-neutral-50);
+  --color-text-muted: var(--color-neutral-200);
+  --color-primary: var(--color-blue-500);
+  --color-primary-hover: var(--color-blue-400);
+  --color-primary-muted: #1e3a5f;
+  --color-primary-text: var(--color-neutral-0);
+  --color-secondary: var(--color-neutral-700);
+  --color-secondary-hover: var(--color-neutral-600);
+  --color-secondary-text: var(--color-neutral-100);
+
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f1f5f9;
+  --color-neutral-200: #e2e8f0;
+  --color-neutral-600: #64748b;
+  --color-neutral-700: #334155;
+  --color-neutral-800: #1e293b;
+  --color-neutral-900: #0f172a;
+  --color-blue-400: #60a5fa;
+  --color-blue-500: #3b82f6;
+}
+
+/* Spacing */
+:root {
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+}
+
+/* Radius */
+:root {
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+}
+
+/* Typography */
+:root {
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, monospace;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --font-medium: 500;
+  --font-semibold: 600;
+}
+
+/* Size (UI 요소 고정 크기) */
+:root {
+  --size-progress-bar-height: 4px;
+  --size-radio-outer: 1.25rem;
+  --size-radio-inner: 0.5rem;
+  --size-avatar: 3rem;
+  --size-content-max: 40rem;
+  --space-radio-indicator-margin: 0.125rem;
+}
+
+/* Shadow */
+:root {
+  --shadow-dialog: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Layout */
+:root {
+  --size-dialog-max: 24rem;
+}
+
+/* EQ-5D-5L Review 차원별 accent (리뷰 카드 강조색) */
+:root,
+[data-theme="light"] {
+  --color-dimension-mobility: var(--color-blue-700);
+  --color-dimension-selfCare: #16a34a;
+  --color-dimension-usualActivities: #ea580c;
+  --color-dimension-painDiscomfort: #dc2626;
+  --color-dimension-anxietyDepression: #7c3aed;
+}
+
+[data-theme="dark"] {
+  --color-dimension-mobility: var(--color-blue-500);
+  --color-dimension-selfCare: #22c55e;
+  --color-dimension-usualActivities: #f97316;
+  --color-dimension-painDiscomfort: #ef4444;
+  --color-dimension-anxietyDepression: #a78bfa;
+}
+
+/* Slider (EQ-VAS) */
+:root {
+  --size-slider-thumb: 1.25rem;
+  --size-slider-track-height: 0.5rem;
+  --color-slider-track: var(--color-neutral-200);
+  --color-slider-thumb: var(--color-primary);
+  --color-slider-thumb-hover: var(--color-primary-hover);
+}

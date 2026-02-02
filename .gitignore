@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+
+# Build
+dist
+dist-ssr
+storybook-static
+*.local
+*.tsbuildinfo
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.cursor
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test
+coverage
+playwright-report
+test-results
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db

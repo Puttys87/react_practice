@@ -1,0 +1,32 @@
+.eqvas-instruction {
+  font-size: var(--text-base);
+  color: var(--color-text);
+  margin: 0 0 var(--space-2);
+  line-height: 1.5;
+}
+
+.eqvas-slider-wrap {
+  margin: var(--space-6) 0;
+}
+
+.eqvas-slider-wrap .primitive-slider {
+  width: 100%;
+}
+
+.eqvas-value {
+  font-size: var(--text-xl);
+  font-weight: var(--font-semibold);
+  margin: var(--space-2) 0 0;
+  color: var(--color-text);
+  text-align: center;
+}
+
+.eqvas-legend {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  margin-top: var(--space-4);
+}
+
+.eqvas-legend p {
+  margin: 0 0 var(--space-1);
+}

@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+  padding: var(--space-8);
+}
+
+.app-header {
+  margin-bottom: var(--space-6);
+}
+
+.app-header h1 {
+  font-size: var(--text-2xl);
+  font-weight: var(--font-semibold);
+  margin: 0 0 var(--space-2);
+}
+
+.app-subtitle {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.app-main {
+  max-width: var(--size-content-max);
+}
+
+.app-actions {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}

@@ -1,0 +1,27 @@
+.eq5d5l-progress {
+  margin-bottom: var(--space-4);
+}
+
+.eq5d5l-progress__bar {
+  display: flex;
+  gap: var(--space-1);
+  margin-bottom: var(--space-2);
+}
+
+.eq5d5l-progress__segment {
+  flex: 1;
+  height: var(--size-progress-bar-height);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-border);
+  transition: background-color 0.2s;
+}
+
+.eq5d5l-progress__segment--filled {
+  background-color: var(--color-primary);
+}
+
+.eq5d5l-progress__text {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  margin: 0;
+}

@@ -1,0 +1,109 @@
+.select-assessment-intro {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-6);
+  line-height: 1.5;
+}
+
+.select-assessment-user-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.select-assessment-user-card__avatar {
+  width: var(--size-avatar);
+  height: var(--size-avatar);
+  border-radius: 50%;
+  background-color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-xl);
+  flex-shrink: 0;
+}
+
+.select-assessment-user-card__name {
+  font-size: var(--text-lg);
+  font-weight: var(--font-semibold);
+  margin: 0 0 var(--space-1);
+  color: var(--color-text);
+}
+
+.select-assessment-user-card__subline {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.select-assessment-instruction {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-4);
+  line-height: 1.5;
+}
+
+.select-assessment-hint {
+  font-size: var(--text-sm);
+  color: var(--color-primary);
+  margin: 0 0 var(--space-4);
+  line-height: 1.5;
+  padding: var(--space-3);
+  background-color: var(--color-primary-muted);
+  border-radius: var(--radius-md);
+}
+
+.select-assessment-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.select-assessment-list-item {
+  margin: 0;
+}
+
+.assessment-card {
+  cursor: pointer;
+  text-align: left;
+}
+
+.assessment-card__header {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.assessment-card__icon {
+  font-size: var(--text-xl);
+  flex-shrink: 0;
+}
+
+.assessment-card__title {
+  flex: 1;
+  font-size: var(--text-lg);
+  font-weight: var(--font-semibold);
+  margin: 0;
+  color: var(--color-text);
+}
+
+.assessment-card__check {
+  flex-shrink: 0;
+  color: var(--color-primary);
+  font-weight: var(--font-semibold);
+}
+
+.assessment-card__description {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-2);
+  line-height: 1.5;
+}
+
+.assessment-card__time {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  margin: 0;
+}

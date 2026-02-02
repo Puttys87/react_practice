@@ -1,0 +1,37 @@
+.eq5d5l-review-card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--eq5d5l-card-accent, var(--color-border));
+  background: var(--color-secondary);
+}
+
+.eq5d5l-review-card__icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.eq5d5l-review-card__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.eq5d5l-review-card__label {
+  font-size: var(--text-base);
+  font-weight: var(--font-semibold);
+  margin: 0 0 var(--space-1);
+  color: var(--color-text);
+}
+
+.eq5d5l-review-card__phrase {
+  font-size: var(--text-sm);
+  margin: 0;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+.eq5d5l-review-card__keyword {
+  font-weight: var(--font-semibold);
+}

@@ -1,0 +1,24 @@
+.eq5d5l-complete__message {
+  font-size: var(--text-base);
+  color: var(--color-text);
+  margin: 0 0 var(--space-6);
+  line-height: 1.5;
+}
+
+.eq5d5l-complete__summary-title {
+  font-size: var(--text-lg);
+  font-weight: var(--font-semibold);
+  margin: 0 0 var(--space-2);
+  color: var(--color-text);
+}
+
+.eq5d5l-complete__list {
+  margin: 0;
+  padding-left: var(--space-6);
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+.eq5d5l-complete__list li {
+  margin-bottom: var(--space-1);
+}

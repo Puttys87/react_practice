@@ -1,0 +1,17 @@
+.eq5d5l-step-instruction {
+  font-size: var(--text-base);
+  color: var(--color-text);
+  margin: 0 0 var(--space-4);
+  line-height: 1.5;
+}
+
+.eq5d5l-step-dimension {
+  font-size: var(--text-xl);
+  font-weight: var(--font-semibold);
+  margin: 0 0 var(--space-4);
+  color: var(--color-text);
+}
+
+.eq5d5l-step-radios {
+  margin-top: var(--space-4);
+}
